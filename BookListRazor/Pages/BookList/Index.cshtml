@@ -1,0 +1,15 @@
+﻿@page
+@model BookListRazor.Pages.BookList.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+    <div class="container row">
+        <div class="col-6">
+            <h2 class="text-info">Book List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-page="Create" class="btn btn-primary">Create New Book</a>
+        </div>
+    </div>
